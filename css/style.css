@@ -215,6 +215,20 @@ h1,h2,h3,h4,h5,h6{font-family: 'Bree Serif', serif!important}
 	
 }
 
+#sponsors2 {
+  width: 100%;
+  display: inline-block;
+  padding: auto 0;
+  margin: 0;
+}
+
+#parceirosimg {
+  display: flex;
+  margin: auto;
+  padding: 1% 7%;
+  position: relative;
+}
+
 #contact .form-control:focus {
   border-bottom-color: #fff121;
 }
