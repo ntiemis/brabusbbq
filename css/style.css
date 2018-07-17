@@ -151,13 +151,31 @@ h1,h2,h3,h4,h5,h6{font-family: 'Bree Serif', serif!important}
   max-width: 100%;
   height: auto;
 }
-	
+  
+.imagemparceiros{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+.imagemparceiros > a {
+  display: block;
+  height: 100%;
+  margin: auto;
+}
+
+.espacoparceiros {
+  max-width: 13%;
+  margin: auto;
+  padding: 0;
+  display: block;
+}
+
 	.img-responsive,
 .thumbnail > img,
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
+  display: flex;
   max-width: 100%;
   height: auto;
 }
@@ -223,7 +241,7 @@ h1,h2,h3,h4,h5,h6{font-family: 'Bree Serif', serif!important}
 	
 	.col-md-10 .col-lg-10 {
 position: relative;
-min-heoght:1px;
+min-height:1px;
 padding-right: 15px;
 padding-left: 15px;
 }
