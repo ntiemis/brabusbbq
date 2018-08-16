@@ -116,10 +116,6 @@ h1,h2,h3,h4,h5,h6{font-family: 'Bree Serif', serif!important}
   color: black!important
 }
 
-.container{
-	backgroudddand-color: blue
-}
-	
 	
 	
 
@@ -130,13 +126,17 @@ h1,h2,h3,h4,h5,h6{font-family: 'Bree Serif', serif!important}
 	
 	
 	.btn-light{color:#212529!important;background-color:#fff121;border-color:#f8f9fa;text-decoration: none}
-	.btn-light:hover{color:#212529;background-color:white!important;border-color:#dae0e5}
-	.btn-light.focus,.btn-light:focus{box-shadow:0 0 0 .2rem rgba(248,249,250,.5)}.btn-light.disabled,.btn-light:disabled{color:#212529;background-color:#fff121!important;border-color:#fff121!important}
-	.btn-light:not(:disabled):not(.disabled).active,.btn-light:not(:disabled):not(.disabled):active,.show>.btn-light.dropdown-toggle{color:#212529;background-color:orangered;border-color:#d3d9df}.btn-light:not(:disabled):not(.disabled).active:focus,.btn-light:not(:disabled):not(.disabled):active:focus,.show>.btn-light.dropdown-toggle:focus{box-shadow:0 0 0 .2rem rgba(248,249,250,.5)}
+	.btn-light:hover{color:#212529;background-color:#fff121!important;border-color:#dae0e5}
+  .btn-light.focus,.btn-light:focus{box-shadow:0 0 0 .2rem rgba(248,249,250,.5)}
+  .btn-light.disabled,.btn-light:disabled{color:#212529;background-color:#fff121!important;border-color:#fff121!important}
+  .btn-light:not(:disabled):not(.disabled).active,.btn-light:not(:disabled):not(.disabled):active,.show>.btn-light.dropdown-toggle{color:#212529;background-color:orangered;border-color:#d3d9df}
+  .btn-light:not(:disabled):not(.disabled).active:focus,.btn-light:not(:disabled):not(.disabled):active:focus,.show>.btn-light.dropdown-toggle:focus{box-shadow:0 0 0 .2rem #fff121)}
 	
 	
 	
-	.btn-dark{margin-left: 0}
+	.btn-dark{
+    margin: 10px auto 20px;
+  }
 	.btn-dark{color:white!important;background-color:black;border-color:#fff121;text-decoration: none;}
 	.btn-dark:hover{color:#212529;background-color:darkgrey;border-color:#dae0e5}
 	.btn-dark.focus,.btn-dark:focus{box-shadow:0 0 0 .2rem rgba(248,249,250,.5)}.btn-dark.disabled,.btn-dark:disabled{color:#212529;background-color:#f8f9fa;border-color:#f8f9fa}
@@ -153,22 +153,54 @@ h1,h2,h3,h4,h5,h6{font-family: 'Bree Serif', serif!important}
 }
   
 .imagemparceiros{
-  display: block;
-  margin: auto;
-  max-width: 100%;
+  max-width: 150px;
+  margin: 0 10px;
 }
-.imagemparceiros > a {
-  display: block;
-  height: 100%;
+
+.espacoparceiros >a{
+  max-width: 100%;
+  justify-content: center;
   margin: auto;
 }
 
-.espacoparceiros {
-  max-width: 13%;
+.espacoparceiros >a >img{
+  max-width: 100%;
+  justify-content: center;
+  margin: auto;
+}
+
+
+#parceirosimg{
+  margin: 0;
+  justify-content: center;
+}
+
+
+#sponsors0 {
+  width: 100%;
+  display: flex !important;
+  margin: 0;
+  padding: 0;
+}
+
+#sponsorsA {
+  width: 80%;
+  height: 200px;
+  display: flex !important;
+  justify-content: space-around;
   margin: auto;
   padding: 0;
-  display: block;
 }
+
+#sponsorsB {
+  width: 80%;
+  height: 200px;
+  display: flex !important;
+  justify-content: space-around;
+  margin: auto;
+  padding: 0;
+}
+
 
 	.img-responsive,
 .thumbnail > img,
@@ -218,15 +250,8 @@ h1,h2,h3,h4,h5,h6{font-family: 'Bree Serif', serif!important}
 #sponsors2 {
   width: 100%;
   display: inline-block;
-  padding: auto 0;
   margin: 0;
-}
-
-#parceirosimg {
-  display: flex;
-  margin: auto;
-  padding: 1% 7%;
-  position: relative;
+  padding: 0;
 }
 
 #contact .form-control:focus {
@@ -270,6 +295,20 @@ padding-left: 15px;
   .container {
     width: 750px;
   }
+
+
+  #parceirosimg {
+    display: flex !important;
+    margin: auto;
+    padding: 1% 5%;
+  }
+  .espacoparceiros {
+    max-width: 10%;
+    margin: auto;
+    padding: 0;
+    display: flex !important;
+  }
+  
 }
 @media (min-width: 992px) {
   .container {
@@ -280,6 +319,18 @@ padding-left: 15px;
   .container {
     width: 1170px;
   }
+  .espacoparceiros {
+    max-width: 10%;
+    margin: auto;
+    padding: 0;
+    display: flex !important;
+  }
+  
+#parceirosimg {
+  display: flex !important;
+  margin: auto;
+  padding: 1% 5%;
+}
 }
 .container-fluid {
   padding-right: 15px;
